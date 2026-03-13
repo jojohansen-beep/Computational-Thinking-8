@@ -1,0 +1,7 @@
+input()
+input()
+input()
+name = input ("What is your name?")
+print (f"Hi {name} and welcome to CT8")
+input ("What is your favorite color?")
+print ("Oh nice! my favorite color is pink!")

@@ -1,0 +1,8 @@
+print ("")
+print ("")
+print ("")
+print ("What did the calculator say to the math book?")
+input ()
+print ("Solve your own problems!")
+name = input ("What is your name?")
+print (f"Hi {name} and welcome to CT8")
