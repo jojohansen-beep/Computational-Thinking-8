@@ -243,8 +243,26 @@ else:
     print (" You can only answer with numbers 1-7!")
 print("")
 # End seven different types of points
-if Red_points > Orange_points and Yellow_points > Green_points > Blue_points > Purple_points > Pink_points:                
-    print("Your personality reflects the color red! you are outgoing, Ambitious, a natural born leader and can also be very competitive.")                
-
-elif Orange_points > Red_points > Yellow_points > Green_points > Blue_points > Purple_points > Pink_points:                
-    print("Your personality indicates the color orange! You are energetic, optimistic, extroverted, and enjoy taking risks and going on fun adventures. But while people with orange personalities are optimistic and fun-loving, they also can be impatient and impulsive at times")
+if Red_points > Orange_points and Red_points > Yellow_points and Red_points > Green_points and Red_points > Blue_points and Red_points > Purple_points and Red_points and Red_points > Pink_points:              
+    print ("Final Results:")  
+    print ("")
+    print("Your personality reflects the color red!")  
+    print ("")              
+    print ("You are outgoing, ambitious, a natural born leader and can also be very competitive.")
+elif Orange_points > Red_points and Orange_points > Yellow_points and Orange_points > Green_points and Orange_points > Blue_points and Orange_points > Purple_points and Orange_points > Pink_points:                
+    print("Final results:")
+    print ("")
+    print("Your personality indicates the color orange!")
+    print ("")
+    print("You are energetic, optimistic, extroverted, and enjoy taking risks and going on fun adventures. But while people with orange personalities are optimistic and fun-loving,they also can be impatient and impulsive at times")
+    print("Final results:")
+    print ("")
+elif Yellow_points > Orange_points and Yellow_points > Red_points and Yellow_points > Green_points and Yellow_points > Blue_points and Yellow_points > Purple_points and Yellow_points > Pink_points: 
+    print (" Your personality indicates the color yellow!")
+    print ("")
+    print (" People with yellow personalities often radiate extreme optimism, high energy, enthusiasm, and cheerfulness just like the warm, positive rays of the sun! These individuals are extroverted social butterflies that thrive in social situations with a very creative and innovative nature.")
+elif Green_points > Yellow_points and Green_points > Orange_points and Green_points > Red_points and Green_points > Blue_points and Green_points > Purple_points and Green_points > Pink_points: 
+    print("Final results:")
+    print ("")
+    print ("Your personality reflects the color green!")
+    print("Individuals who have a green personality type are generally very analytical, logical, and visionary. People with green personalities are also independent and prefer to work alone and possibly are disinterested when doing group work or in working with others. They also can be described as being perfectionists and value efficiency also tending to hold themselves up to high standards.   ")
