@@ -110,23 +110,16 @@ print("3. Do you prefer warmer or colder weather, or both?")
 print("")
 Answer = input ("Type in your answer here: ")
 
-if Answer == "Warmer weather":
+if Answer == "Warmer weather" or Answer == "warmer":
     Red_points += 1
+    Yellow_points += 1
     print("")
     print("->> You prefer a more warmer environment!")
     print("") 
-elif Answer == "Warmer weather":
-    Yellow_points += 1
-    print("")
-    print("->> You prefer a more warmer environment ")
-    print("")
-elif Answer == "both":
-    Orange_points += 1
-    print("")
-    print("->> Why have one when you can have both!? ")
-    print("")
-elif Answer == "both":
+elif Answer == "both" or Answer == "Both":
+    Pink_points += 1
     Purple_points += 1
+    Orange_points += 1
     print("")
     print("->> Why have one when you can have both!? ")
     print("")
@@ -134,11 +127,6 @@ elif Answer == "colder weather":
     Green_points += 1
     print("")
     print("->> You favor colder weather!")
-    print("")
-elif Answer == "both":
-    Pink_points += 1
-    print("")
-    print("->> Why have one when you can have both!? ")
     print("")
 elif Answer == "colder weather":
     Blue_points += 1
