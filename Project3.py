@@ -59,8 +59,11 @@ if x1 >= x2 and x1 >= x3 and x1 >= x4:
 elif x2 >= x1 and x2 >= x3 and x2 >= x4:
     s5.write("Dino Pusheen wins!")
 
-elif x2 >= x1 and x2 >= x3 and x2 >= x4:
-    s5.write(" wins!")
+elif x3 >= x1 and x3 >= x2 and x3 >= x4:
+    s5.write("Pusheenicorn wins!")
+
+elif x4 >= x1 and x4 >= x2 and x4 >= x3:
+    s5.write("MermaidPusheen wins!")
 
 
 turtle.exitonclick()
